@@ -1,0 +1,39 @@
+.container {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--gray-500);
+
+  border: 1px solid var(--gray-400);
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+}
+
+.checkTask,
+.trashButton {
+  background: transparent;
+  border: none;
+  display: flex;
+  padding: 0.25rem;
+  border-radius: 2px;
+}
+
+.trashButton {
+  margin-left: auto;
+}
+.trashButton:hover {
+  background: var(--gray-400);
+}
+
+.task,
+.taskComplete {
+  margin-left: 0.75rem;
+  font-weight: normal;
+  color: var(--gray-100);
+}
+
+.taskComplete {
+  text-decoration: line-through;
+  color: var(--gray-300);
+}

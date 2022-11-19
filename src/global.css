@@ -39,6 +39,7 @@
 body {
   background: var(--gray-600);
   color: var(--gray-300);
+  line-height: 140%;
 }
 
 button {
