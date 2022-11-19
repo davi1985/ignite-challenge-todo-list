@@ -1,0 +1,48 @@
+.form {
+  width: 100%;
+  max-width: 736px;
+  margin: 0 auto;
+
+  display: flex;
+  gap: 0.5rem;
+  margin-top: -1.5rem;
+}
+
+.form input,
+.form button {
+  border-radius: 8px;
+  padding: 1rem;
+  border: none;
+}
+
+.form input {
+  flex: 1;
+  background: #454545;
+  border: none;
+
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--gray-100);
+}
+
+.form input::placeholder {
+  color: var(--gray-300);
+}
+
+.form button {
+  background: var(--blue-700);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.25rem;
+  color: var(--gray-100);
+
+  font-size: 0.875rem;
+  font-weight: bold;
+
+  transition: background 0.3s;
+}
+
+.form button:hover {
+  background-color: var(--blue-500);
+}
