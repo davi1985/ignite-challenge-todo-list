@@ -1,5 +1,5 @@
+import { Header } from './Header';
+
 export const App = () => {
-  return (
-    <h1>ToDo List</h1>
-  )
-}
+  return <Header />;
+};
