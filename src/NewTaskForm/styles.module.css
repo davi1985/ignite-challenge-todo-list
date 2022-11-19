@@ -1,11 +1,13 @@
 .form {
   width: 100%;
   max-width: 736px;
-  margin: 0 auto;
 
   display: flex;
+  justify-content: center;
+  align-items: center;
+
   gap: 0.5rem;
-  margin-top: -1.5rem;
+  margin: -1.5rem auto;
 }
 
 .form input,
