@@ -9,6 +9,8 @@ export const Tasks = ({ tasks, onComplete, onDelete }: ITasksProps) => {
   const completedTasks = tasks.filter((task) => task.status).length;
   const tasksQuantity = tasks.length;
 
+  console.log(tasks);
+
   return (
     <div className={styles.container}>
       <header className={styles.header}>
@@ -23,7 +25,7 @@ export const Tasks = ({ tasks, onComplete, onDelete }: ITasksProps) => {
         </div>
       </header>
 
-      {!tasks.length && (
+      {!tasks && (
         <div className={styles.emptyList}>
           <img src={clipboardIcon} alt="" />
 
